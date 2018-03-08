@@ -1,0 +1,58 @@
+Here we find some remarks about INT data:
+
+----------------NIGHT 1-------------------
+* Science data have instrumental setup different from calibration: the slit is 1.6 for data science and 1.0 for calibration frames. So, for these targets we use the calibration of the NIGHT 2, even if this is not really correct. Although the bias are quite stable, the flat, being only the skyflat and not the domeflat, changes from night to night.
+
+TOR3 --->DONE
+TOR7
+TOR11
+TOR31
+TOR60
+----------------NIGHT 2-------------------
+* TOR41 out of slit so they are useless, but they are observed also in NIGHT 3.
+
+TOR4
+TOR10
+TOR16 --->DONE
+TOR41
+TOR71 --->DONE
+TOR46 --->DONE
+
+----------------NIGHT 3-------------------
+* Science data (TOR6, TOR12, TOR31) have instrumental setup different from calibration: the slit is 2.0 for data science and 1.6 for calibration frames (only the skybackground have slit 2.0, but useless!). We will adopt the same procedure used for the NIGHT 1.
+
+TOR2
+TOR6  
+TOR12 
+TOR31 
+TOR41
+TOR60
+TOR65
+TORCNN463 ??
+
+
+----------------NIGHT 4-------------------
+* TOR24 without spectrum, probably due to umidity (see log file)
+TOR2
+TOR13
+TOR15
+TOR24 --->NO
+
+
+----------------NIGHT 5-------------------
+* Science data (TOR6) have instrumental setup different from calibration: the slit is 2.0 for data science and 1.6 for calibration frames (only the skybackground have slit 2.0, but useless!). We will adopt the same procedure used for the NIGHT 1.
+
+TOR6 
+TOR24
+TOR33
+TOR45
+TOR69
+----------------NIGHT 6-------------------
+* No problem (at least for the moment!)
+
+TOR18 --->DONE
+TOR34 --->DONE
+TOR53 --->DONE
+TOR60
+TOR65 
+
